@@ -1,40 +1,12 @@
 <div class="main-wrapper" *ngIf="!loading">
   <!-- NAVBAR -->
   <nav class="navbar">
-    <!-- <a class="nav-logo" (click)="scrollToTop()">
-      <div class="logo-icon">
-        <img *ngIf="details?.logo_url" [src]="imageUrl + details?.logo_url" alt="logo" class="logo-img">
-        <span *ngIf="!details?.logo_url">E</span>
-      </div>
-      <span class="logo-text">{{ details?.app_name || 'Earn24' }}</span>
-    </a> -->
-
-    <a class="nav-logo" (click)="scrollToTop()">
-      <div
-        class="logo-icon"
-        style="
-          height: 120px;
-          width: 200px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        "
-      >
-        <img
-          *ngIf="details?.logo_url; else defaultLogo"
-          [src]="imageUrl + details?.logo_url"
-          alt="logo"
-          style="height: 100%; width: 100%; object-fit: contain"
-        />
-
-        <ng-template #defaultLogo>
-          <img
-            src="/earn24_logo.png"
-            alt="logo"
-            style="height: 100%; width: 100%; object-fit: contain"
-          />
-        </ng-template>
-      </div>
+    <a class="nav-logo" (click)="scrollToTop()" title="Earn24">
+      <img
+        src="/earn24_brand_logo.png"
+        alt="Earn24"
+        class="nav-brand-logo"
+      />
     </a>
 
     <div class="nav-links">
@@ -297,47 +269,13 @@
   <footer class="footer">
     <div class="footer-top">
       <div class="footer-brand">
-        <!-- <a class="nav-logo footer-logo" (click)="scrollToTop()">
-          <div class="logo-icon">
-            <img
-              *ngIf="details?.logo_url"
-              [src]="imageUrl + details?.logo_url"
-              alt="logo"
-              class="logo-img"
-            />
-            <span *ngIf="!details?.logo_url">E</span>
-          </div>
-          <span class="logo-text">{{ details?.app_name || 'Earn24' }}</span>
-        </a> -->
-
-
-        <a class="nav-logo" (click)="scrollToTop()">
-      <div
-        class="logo-icon"
-        style="
-          height: 120px;
-          width: 200px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        "
-      >
-        <img
-          *ngIf="details?.logo_url; else defaultLogo"
-          [src]="imageUrl + details?.logo_url"
-          alt="logo"
-          style="height: 100%; width: 100%; object-fit: contain"
-        />
-
-        <ng-template #defaultLogo>
+        <a class="nav-logo footer-logo" (click)="scrollToTop()" title="Earn24">
           <img
-            src="/earn24_logo.png"
-            alt="logo"
-            style="height: 100%; width: 100%; object-fit: contain"
+            src="/earn24_brand_logo.png"
+            alt="Earn24"
+            class="footer-brand-logo"
           />
-        </ng-template>
-      </div>
-    </a>
+        </a>
 
 
 
