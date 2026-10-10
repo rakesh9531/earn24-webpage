@@ -30,7 +30,7 @@
 }
 
 .main-wrapper {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
   overflow-x: hidden;
@@ -127,7 +127,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: white;
@@ -145,7 +145,7 @@
 }
 
 .logo-text {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 22px;
   color: var(--text);
@@ -277,7 +277,7 @@
 }
 
 .hero-heading {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: clamp(36px, 4.5vw, 64px);
   line-height: 1.08;
@@ -430,7 +430,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 32px;
   color: white;
@@ -446,7 +446,7 @@
 }
 
 .phone-app-name {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: var(--text);
@@ -503,7 +503,7 @@
 }
 
 .fi-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: var(--text);
@@ -544,7 +544,7 @@
 }
 
 .section-heading {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: clamp(28px, 3.5vw, 46px);
   color: var(--text);
@@ -601,7 +601,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 800;
   color: var(--green);
@@ -620,7 +620,7 @@
 }
 
 .step-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: var(--text);
@@ -679,7 +679,7 @@
 }
 
 .earn-card-label {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 700;
   color: var(--text);
@@ -798,7 +798,7 @@
 }
 
 .cta-heading {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: clamp(28px, 4vw, 50px);
   font-weight: 800;
   color: var(--text);
@@ -829,7 +829,7 @@
   background: var(--green);
   color: white;
   text-decoration: none;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 16px;
   padding: 16px 36px;
@@ -903,7 +903,7 @@
 }
 
 .footer-col-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 13px;
   color: var(--text);
